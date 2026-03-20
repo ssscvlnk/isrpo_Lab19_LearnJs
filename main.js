@@ -184,6 +184,7 @@ let numbersArr = [1, 2, 3, 4, 5];
 // for (let key in user2) {
 //     console.log(key + ": " + user2[key]);
 // }
+
 let product = {
     name: "iPhone 17",
     year: 2025,
