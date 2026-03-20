@@ -60,3 +60,50 @@
 //   }
 //   console.log(s);
 // }
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// console.log(sum(3, 5));
+// function multiply(a, b) {
+//     return a * b;
+// }
+// console.log(multiply(3, 5));
+// function printInfo(name, age) {
+//     console.log(`Name: ${name}, age: ${age}`);
+// }
+// printInfo("Polina", 17);
+// function calculateDiscount(price, discount = 10) {
+//     console.log(`Total cost: ${price - (price * (discount / 100))}`);
+// }
+// calculateDiscount(100);
+// calculateDiscount(100, 20);
+
+const add = function (a, b) {
+    return a + b;
+};
+console.log(add(2, 3));
+
+function makeCounter() {
+    let count = 0;
+    return function () {
+        count++;
+        return count;
+    };
+}
+const counter = makeCounter();
+console.log(counter());
+console.log(counter());
+console.log(counter());
+
+function sumFunc(a, b) {
+    return a + b;
+}
+const sumFunc2 = (a, b) => a+ b;
+const double = x => x * 2;
+const sayGreeting = () => console.log("Hello");
+const square = x => x * x;
+const calculate = (a, b) => {
+    let result = a + b;
+    return result * 2;
+}
